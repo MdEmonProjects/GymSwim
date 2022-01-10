@@ -1,0 +1,552 @@
+@media (max-width: 575.98px) {
+
+    .navbar-expand-lg #navbarSupportedContent {
+        background: #000;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link.active {
+        background: #751bd4;
+        border-radius: 0px;
+        width: 100%;
+
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 0px;
+        padding: 10px 20px;
+    }
+
+    .register_btn {
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .register_btn a:first-child {
+        padding: 8px 10px;
+        display: inline-block;
+    }
+
+    .register_btn a:last-child {
+        padding: 8px 12px;
+        border-radius: 5px;
+        margin-left: 0px;
+    }
+
+
+    .banner_text h3 {
+        font-size: 22px;
+    }
+    .banner_text h4 {
+        font-size: 14px;
+    }
+
+    .bannerImageOne {
+        margin-top: 0px;
+        
+    }
+    .bannerImageOne img{
+        height: 300px;
+
+    }
+
+    .banner_main_text h5 {
+        font-size: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .banner_main_text h4 {
+        font-size: 26px;
+    }
+    .banner_main_text h6 {
+        font-size: 13px;
+    }
+    .banner_round_image_parent{
+        display: none;
+    }
+    @media screen {
+        
+    }
+    .bannerQueat {
+        bottom: 40%;
+        right: 20px;
+    }
+    .part_two_text h3 {
+        font-size: 26px;
+        line-height: 20px;
+    }
+    .part_two_image_shape img {
+        height: 270px;
+        width: 274px;
+    }
+    .part_two_image_shape {
+        top: 25px;
+        right: 0px;
+    }
+
+
+    /* ================ */
+    .swim_part_three_text {
+        padding: 50px;
+        left: 200px;
+    }
+    .swim_part_three_text h3 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .swim_part_three_text{
+        display: none;
+    }
+    .slick-arrow-right{
+        display: none;
+    }
+    .train_banner_round_image {
+        height: 150px;
+        width: 150px;
+    }
+    .footer_text h4 {
+        font-size: 70px;
+    }
+    .swime_round_image_parent {
+        position: absolute;
+        left: 28%;
+        top: 40%;
+        padding-left: 25px;
+        padding-right: 25px;
+        background: #150035;
+        border-radius: 50%;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        z-index: 999;
+    }
+    .swime_round_image {
+        height: 150px;
+        width: 150px;
+    }
+    .swim_banner_image_one{
+        display: none;
+    }
+    
+
+  
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ======== Section One start============== */
+    .bannerImageOne {
+        margin-top: 27px;
+        height: 400px;
+        clip-path: polygon(0 73%, 0 30%, 47% 0, 100% 50%, 100% 70%, 100% 80%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+        overflow: hidden;
+    }
+    .banner_main_text {
+        top: 106px;
+    }
+    .banner_main_text h5 {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 60px;
+    }
+    .banner_main_text h4 {
+        font-size: 28px;
+    }
+    .bannerRoundImagePosition{
+        opacity: 0;
+        visibility: hidden;
+    }
+    /* .bannerRoundImageParent {
+        padding-bottom: 84px;
+    }
+    .bannerRoundImage {
+        height: 180px;
+        width: 180px;
+    } */
+    .bannerQueat {
+        bottom: 356px;
+        right: 36px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .bannerImageTwo {
+        height: 284px;
+    }
+    .bannerQueat h4 {
+        font-size: 16px;
+    }
+    .bannerQueat h5 {
+        font-size: 26px;
+    }
+    .bannerQueat h6 {
+        font-size: 30px;
+    }
+    /* ======== Section One End============== */
+     /* ============ section two start ================== */
+     .part_two_image_shape img {
+        height: 264px;
+        width: 300px;
+    }
+
+    .part_two_image_shape {
+        top: 50px;
+        right: 50px;
+    }
+
+    .part_two_text h3 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    /* ============ section two End ================== */
+    
+    .swime_round_image_parent {
+        position: absolute;
+        left: 28%;
+        top: 40%;
+        padding-left: 50px;
+        padding-right: 50px;
+        background: #150035;
+        border-radius: 50%;
+        padding-bottom: 10px;
+        padding-top: 40px;
+        z-index: 999;
+    }
+
+    .swim_banner_image_two img {
+        height: 260px;
+    }
+
+    .swim_banner_image_one {
+        position: absolute;
+        top: 60px;
+        left: -180px;
+        transform: rotate(45deg);
+    }
+    .slick-arrow-left {
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px !important;
+        left: 8px;
+    }
+    .slick-arrow-right  {
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px !important;
+        right: 8px;
+    }
+    .bannerRoundImagePosition {
+        padding-bottom: 70px;
+    }
+    .thisismypart{
+
+    }
+    /* .swim_part_three_text {
+        display: none;
+    } */
+    .train_banner_image_one {
+        height: 300px;
+    }
+    .train_banner_image_two {
+        height: 300px;
+    }
+    .train_banner_text h4 {
+        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .train_banner_text h3 {
+        font-size: 25px;
+    }
+    .train_banner_round_image {
+        height: 150px;
+        width: 150px;
+    }
+    .train_banner_round_image_parent {
+        padding-top: 18px;
+        padding-right: 18px;
+        bottom: 72px;
+    }
+    .train_queat_image {
+        height: 300px;
+    }
+    .train_queat_text h6 {
+        font-size: 26px;
+    }
+    .train_queat_text h5 {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .train_part_three_item {
+        padding-bottom: 0px;
+    }
+    .train_queat_text {
+        bottom: 36px;
+        right: 52px;
+    }
+    .train_part_three_image_shape img {
+        height: 280px;
+        width: 380px;
+    }
+    .train_part_three_text h3 {
+        font-size: 33px;
+        line-height: 28px;
+    }
+    .train_part_three_text {
+        background: #150035;
+        top: 67%;
+        left: 80px;
+        padding-right: 40px;
+    }
+    .swime_round_image_parent {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    #swime_banner {
+        padding-top: 430px;
+    }
+    .swime_round_image {
+        height: 150px;
+        width: 150px;
+    }
+    .swim_queat_image {
+        height: 210px;
+        width: 100%;
+        background-position: 50% -0%;
+    }
+    .swim_queat_text h4 {
+        font-size: 19px;
+    }
+    .swim_queat_text h5 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .swim_queat_text h6 {
+        font-size: 26px;
+    }
+    .swim_part_three_text {
+        padding: 50px;
+        left: 200px;
+    }
+    .swim_part_three_text h3 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .swim_part_three_image {
+        height: 300px;
+    }
+    .footer_text h4 {
+        font-size: 100px;
+    }
+    .footer_text p {
+        font-size: 23px;
+    }
+    .footer_text h3 {
+        font-size: 28px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* =========== section one start ==============*/
+    .bannerImageOne {
+        height: 400px;
+    }
+
+    .banner_text h3 {
+        font-size: 26px;
+    }
+
+    .banner_text h4 {
+        font-size: 18px;
+    }
+
+    .bannerImageTwo {
+        height: 300px;
+    }
+
+    .banner_main_text h5 {
+        font-size: 70px;
+    }
+
+    .bannerRoundImage {
+        height: 150px;
+        width: 150px;
+    }
+
+    .bannerRoundImagePosition {
+        padding-top: 60px;
+        padding-bottom: 90px;
+        padding-left: 15px;
+    }
+
+    .bannerQueat {
+        right: 44px;
+        bottom: 50%;
+        -moz-opacity: 0;
+    }
+    .part_two_image_shape {
+        right: 150px;
+    }
+
+    .banner_main_text {
+        top: 125px;
+    }
+
+    .train_banner_image_one {
+        height: 340px;
+    }
+
+    /* =========== section one End =============== */
+
+    /* ============ section two start ================== */
+    .part_two_image_shape img {
+        height: 264px;
+        width: 300px;
+    }
+
+    .part_two_image_shape {
+        top: 50px;
+    }
+
+    .part_two_text h3 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    /* ============ section two End ================== */
+    /* ============= section Four start ================= */
+    .train_banner_text h4 {
+        font-size: 70px;
+    }
+
+    .train_banner_round_image_parent {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        bottom: 30px;
+    }
+
+    .train_banner_round_image {
+        height: 160px;
+        width: 160px;
+    }
+
+    /* ============= section Four End ================= */
+    /* ============== section eight start ============== */
+    .swim_banner_image_two img {
+        height: 344px;
+    }
+
+    .swim_queat_text h5 {
+        font-size: 28px;
+    }
+
+    .swim_queat_text h6 {
+        font-size: 34px;
+    }
+
+    .swim_part_three_text {
+        align-self: flex-end;
+        padding: 50px;
+        left: 295px;
+    }
+
+    .swim_part_three_text h4 {
+        font-size: 14px;
+    }
+
+    .swim_part_three_text h3 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .swim_part_three_image {
+        height: 300px;
+        width: 343px;
+    }
+
+    .train_banner_image_two {
+        height: 340px;
+    }
+
+    .swime_round_image {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* ============== section eight End ============== */
+    /* ========= Footer part start */
+    .footer_text h4 {
+        font-size: 140px;
+    }
+
+    .footer_image img {
+        height: 250px;
+    }
+
+    /* ========= Footer part End */
+   
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+    .swime_round_image_parent {
+        position: absolute;
+        left: 28%;
+        top: 40%;
+        padding-left: 50px;
+        padding-right: 50px;
+        background: #150035;
+        border-radius: 50%;
+        padding-bottom: 10px;
+        padding-top: 40px;
+        z-index: 999;
+    }
+
+    .swim_banner_image_two img {
+        height: 260px;
+    }
+
+    .swim_banner_image_one {
+        position: absolute;
+        top: 60px;
+        left: -180px;
+        transform: rotate(45deg);
+    }
+    .slick-arrow-left {
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px !important;
+        left: 8px;
+    }
+    .slick-arrow-right  {
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px !important;
+        right: 8px;
+    }
+    .bannerRoundImagePosition {
+        padding-bottom: 70px;
+    }
+}
